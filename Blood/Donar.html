@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Donate please!</title>
+    <link rel="stylesheet" href="Donor.css">
+</head>
+
+<body>
+    <div class="form1">
+
+        <form id="bloodDonationForm" action="thank.html" method="post">
+            <h2>Blood Donation Form</h2>
+
+            <div class="content">
+                <div class="form-gr">
+                    <label for = "name"> Full Name <font color="red">*</font> </label>
+                    <input type="text" name="name" placeholder="Enter Your Name :" required>
+        
+                </div>
+                <div class="form-gr">
+                    <label for = "email" >Email<font color="red">*</font></label>
+                    <input type="email" name="email" placeholder="Enter You Email address :" required>
+                    
+                </div>
+                <div class="form-gr">
+                    <label for="address">Address<font color="red">*</font></label>
+                    <input type="address" name="address" placeholder="Enter your Address :" required>
+                </div>
+                <div class="form-gr">
+                    <label for = "blood"> Blood Group <font color="red">*</font></label>
+                    <select>
+                        <option>Select Blood</option>
+                        <option>A Positive</option>
+                        <option>A Negative</option>
+                        <option>A Unknown</option>
+                        <option>B Positive</option>
+                        <option>B Negative</option>
+                        <option>B Unknown</option>
+                        <option>AB Positive</option>
+                        <option>AB Negative</option>
+                        <option>AB Unknown</option>
+                        <option>O Positive</option>
+                        <option>O Negative</option>
+                        <option>O Unknown</option>
+                        <option>Unknown</option>
+                    </select>           
+                </div>
+                <div class="form-gr">
+                    <label for = "State"> State <font color="red">*</font></label>
+                    <select>
+                        <option>Select State</option>
+                        <option>Andhra Pradesh</option>
+                        <option>Arunachal Pradesh</option>
+                        <option>Assam</option>
+                        <option>Bihar</option>
+                        <option>Chhattisgarh</option>
+                        <option>Goa</option>
+                        <option>Gujarat</option>
+                        <option>Haryana</option>
+                        <option>Himachal Pradesh</option>
+                        <option>Jharkhand</option>
+                        <option>Kerala</option>
+                        <option>Maharashtra</option>
+                        <option>Uttar Pradesh</option>
+                        <option>Delhi</option>
+                        <option>Madhya Pradesh</option>
+                        <option>Uttrakhand</option>
+                        <option>West Bengal</option>
+                    </select>           
+                </div>
+                <span class="gender-title"> Gender<font color="red">*</font></span>
+                <div class=" gender-cat">
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">  Female</label>
+                    <input type="radio" name="gender" id="other">
+                    <label for="other">Other</label>
+        
+                </div>
+                <marquee behavior="scroll" direction="left" scrollamount="6">Warning: Do not pay any amount to any person promising supply of blood packets or arranging donors. call our nearest team members. so that we can initiate police/legal action. We have received complaints of middlemen seeking money -it has 
+                    no agents, does not arrange blood/donors and does not collect money for any service.</marquee>
+                    <div class="alert">
+        
+                    </div>
+                <button class="btn" type="submit">Submit</button>
+            </form>
+        </form>
+<script src="Donar.js"></script>
+</body>
+</html>

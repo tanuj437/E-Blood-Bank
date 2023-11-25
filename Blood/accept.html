@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content ="ie= edge">
+    <title> Request Blood</title>
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <link rel="stylesheet" href="accept.css">
+</head>
+
+
+<body>
+        
+    <div class="form1">
+    <h2>Blood Accept Form</h2>
+    <form action="#">  
+        
+        <div class="content">
+        <div class="form-gr">
+            <label for = "name"> Full Name </label>
+            <input type="text" name="name" placeholder="Enter Your Name :" >
+
+        </div>
+        <div class="form-gr">
+            <label for="tel">Mobile Phone</label>
+            <input type="tel" name="telephone" placeholder="Enter Your Mobile number :">
+            
+        </div>
+        <div class="form-gr">
+            <label for = "blood"> Blood Group </label>
+            <select id="blood-group">
+                <option>Select Blood</option>
+
+                <option>A+ve</option>
+                <option>A-ve</option>
+                
+                <option>B+ve</option>
+                <option>B-ve</option>
+
+                <option>AB+ve</option>
+                <option>AB-ve</option>
+
+                <option>O+ve</option>
+                <option>O-ve</option>
+
+            </select>           
+        </div>
+        <div class="form-gr">
+            <label for = "State"> State </label>
+            <select>
+                <option>Select State</option>
+                <option>Andhra Pradesh</option>
+                <option>Arunachal Pradesh</option>
+                <option>Assam</option>
+                <option>Bihar</option>
+                <option>Chhattisgarh</option>
+                <option>Goa</option>
+                <option>Gujarat</option>
+                <option>Haryana</option>
+                <option>Himachal Pradesh</option>
+                <option>Jharkhand</option>
+                <option>Kerala</option>
+                <option>Maharashtra</option>
+                <option>West Bengal</option>
+            </select>           
+        </div>
+        <span class="gender-title"> Gender</span>
+        <div class=" gender-cat">
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">  Female</label>
+            <input type="radio" name="gender" id="other">
+            <label for="other">Other</label>
+
+        </div>
+        <button class="btn" onclick="callback()"> Submit</button>
+
+        <marquee behavior="scroll" direction="left" scrollamount="6">Warning: Do not pay any amount to any person promising supply of blood packets or arranging donors.call our nearest team members. so that we can initiate police/legal action. We have received complaints of middlemen seeking money - it has 
+        no agents, does not arrange blood/donors and does not collect money for any service.</marquee>
+            <div class="alert">
+
+            </div>
+        </div>
+    </form>    
+    </div>
+    <script src="accept.js"></script>
+    </body>
+</html>

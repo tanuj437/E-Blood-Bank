@@ -1,0 +1,143 @@
+body{
+    /* background-color: white; */
+    color: black;
+    background-image: url("WVZlL3zB.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.map{
+    width: max-content;
+    height: 200px;
+}
+
+.bsdk{
+    width: 100%;
+    height: 700px;
+    margin-bottom: 10px;
+    background-image: url("Images/img1.webp");
+    background-size: cover;
+        text-align: center;
+        color:white;
+        padding-top:10em;
+      
+      * { color:white; text-decoration: none;}
+    
+}
+
+header{
+    display: flex;
+    align-items:center;
+    list-style-type:none;
+    height: 65px;
+    background-color:#95c3b3;
+    justify-content: space-between;
+    /* color: white; */
+    height: 70px;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 28px;
+    color : white;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+.nav-bar ul{
+    list-style:none;
+    display:flex;
+}
+
+.nav-bar ul li a{
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    transition: 0.2s;
+    /* margin: 0 5px; */
+    color: white;
+}
+
+.nav-bar ul li a:hover{
+    color:black;
+    background-color:white;
+}
+
+.nav-bar ul li a.active{
+    color:black;
+    background-color:white;
+}
+@media only screen and (max-width : 1320px)
+{
+    header{
+        padding: 0 30px;
+    }
+}
+@media only screen and (max-width : 1100px)
+{
+    header{
+        padding: 0 50px;
+    }
+}
+@media only screen and (max-width : 900px)
+{
+    .Burger{
+        display: block;
+        cursor: pointer;
+    }
+
+    .Burger .line{
+        width: 30px;
+        height: 3px;
+        background: white;
+        margin:6px 0;
+    }
+
+    .nav-bar{
+        height: 0;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: #7ab3b7;
+        transition: 0.5s;
+        /* display: none; */
+        overflow: hidden;
+    }
+    .nav-bar.active{
+        height: 450px;
+    }
+
+    .nav-bar ul{
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        list-style: none;
+        opacity: 0;
+    }
+
+    .nav-bar.active ul{
+        opacity: 1;
+    }
+
+    
+    .nav-bar ul li a{
+        margin-bottom: 12px;
+        color: black;
+    }
+
+}

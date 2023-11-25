@@ -1,0 +1,44 @@
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.button1,.button2 {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    margin-top: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 155vh;
+    margin: 0; 
+    font-family: Arial, sans-serif;
+    background: url("Image/img.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.button2:hover{
+    background-color: #085d0b;
+    cursor: pointer;
+}
+.button1:hover{
+    background-color: #037e07;
+    cursor: pointer;
+}
+
